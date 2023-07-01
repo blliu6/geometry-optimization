@@ -1,4 +1,4 @@
-n = input("请输入n:");
+n = input("Please enter n:");
 tic;
 t1 = cputime;
 x = sdpvar(n-3, 1);
@@ -50,7 +50,7 @@ if res.problem == 0
     xx = value(x);
     yy = value(y);
     sol = value(f);
-    fprintf('最小值为:%f\n', sol);
+    fprintf('The minimum value is %f\n', sol);
 elseif res.problem == 1
     disp('Solver thinks it is infeasible');
 else
